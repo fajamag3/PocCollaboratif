@@ -14,20 +14,8 @@ int main() {
 
     std::cout << "Entrez le deuxième nombre: ";
     std::cin >> b;
-
-    switch (operation) {
-        case '+':
-            std::cout << "Résultat: " << a << " + " << b << " = " << a + b << std::endl;
-            break;
-        case '-':
-            std::cout << "Résultat: " << a << " - " << b << " = " << subtract(a, b) << std::endl;
-            break;
-        case '*':
-            std::cout << "Resultat: " << a << " * " << b << " = " << a * b << std::endl;
-            break;
-        default:
-            std::cout << "Opération invalide. Utilisez +, -, ou *." << std::endl;
-    }
-
+    
+    std::cout << "Resultat: " << a << " * " << b << " = " << a * b << std::endl;
+    
     return 0;
 }
