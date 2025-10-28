@@ -9,7 +9,7 @@ int main() {
     std::cout << "Entrez le deuxième nombre: ";
     std::cin >> b;
     
-    std::cout << "Resultat: " << a << " * " << b << " = " << a * b << std::endl;
+    std::cout << "Resultat de la multiplication: " << a << " * " << b << " = " << a * b << std::endl;
     
     return 0;
 }
