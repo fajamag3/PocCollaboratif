@@ -2,7 +2,10 @@
 
 long double subtract(long double num1, long double num2);
 
-int main() {
+long double addition(long double num1, long double num2);
+
+int main()
+{
     char operation;
     long double a, b;
 
@@ -14,8 +17,13 @@ int main() {
 
     std::cout << "Entrez le deuxième nombre: ";
     std::cin >> b;
-    
+
     std::cout << "Resultat: " << a << " * " << b << " = " << a * b << std::endl;
-    
+
+    if (operation == '+')
+    {
+        std::cout << "Addition : " << a << " + " << b << " = " << addition(a, b) << std::endl;
+    }
+
     return 0;
 }
