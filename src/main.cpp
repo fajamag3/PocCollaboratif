@@ -1,5 +1,6 @@
 #include <iostream>
 #include "multiplyNumber.hpp"
+#include "addition.hpp"
 
 int main() {
     char operation;
@@ -20,7 +21,8 @@ int main() {
 
     if (operation == '+')
     {
-        std::cout << "Addition : " << a << " + " << b << " = " << a + b << std::endl;
+        long double resultOfAddition = addition(a, b);
+        std::cout << "Resultat de l'addition: " << a << " + " << b << " = " << resultOfAddition << std::endl;
     }
     
    
