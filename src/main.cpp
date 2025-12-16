@@ -1,32 +1,56 @@
 #include <iostream>
+#include "functions.h"
+#include "tests.h"
 
-long double subtract(long double num1, long double num2);
+int main()
+{
+    int choix = 0;
 
-int main() {
-    char operation;
-    long double a, b;
+    while (true)
+    {
+        std::cout << "\n=== CALCULATRICE ===\n";
+        std::cout << "1. Addition\n";
+        std::cout << "2. Multiplication\n";
+        std::cout << "3. Soustraction\n";
+        std::cout << "4. Quitter\n";
+        std::cout << "5. Lancer les tests\n";
+        std::cout << "Votre choix : ";
+        std::cin >> choix;
 
-    std::cout << "Choisissez une opération (+, -, *): ";
-    std::cin >> operation;
-
-    std::cout << "Entrez le premier nombre: ";
-    std::cin >> a;
-
-    std::cout << "Entrez le deuxième nombre: ";
-    std::cin >> b;
-
-    switch (operation) {
-        case '+':
-            std::cout << "Résultat: " << a << " + " << b << " = " << a + b << std::endl;
+        if (choix == 4)
+        {
+            std::cout << "Au revoir !\n";
             break;
-        case '-':
-            std::cout << "Résultat: " << a << " - " << b << " = " << subtract(a, b) << std::endl;
-            break;
-        case '*':
-            std::cout << "Resultat: " << a << " * " << b << " = " << a * b << std::endl;
-            break;
-        default:
-            std::cout << "Opération invalide. Utilisez +, -, ou *." << std::endl;
+        }
+
+        int a = 0, b = 0;
+        std::cout << "Entrez le premier nombre : ";
+        std::cin >> a;
+        std::cout << "Entrez le second nombre : ";
+        std::cin >> b;
+
+        switch (choix)
+        {
+            case 1:
+                std::cout << "Résultat : " << addition(a, b) << "\n";
+                break;
+
+            case 2:
+                std::cout << "Résultat : " << multiplication(a, b) << "\n";
+                break;
+
+            case 3:
+                std::cout << "Résultat : " << subtraction(a, b) << "\n";
+                break;
+
+		case 5:
+    		    testGlobal();
+    		    break;
+
+            default:
+                std::cout << "Choix invalide.\n";
+                break;
+        }
     }
 
     return 0;
