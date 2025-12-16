@@ -3,17 +3,10 @@
 // ==============================
 // === Addition (Amadou) ========
 // ==============================
-int addition(int a, int b)
+long double addition(long double a, long double b)
 {
-
-    // TODO: Amadou 
-    // implémente ici
-    // son code
-
-    return 0;
+    return a + b;
 }
-
-
 
 // ==============================
 // === Multiplication (Faris) ===
@@ -21,21 +14,19 @@ int addition(int a, int b)
 int multiplication(int a, int b)
 {
 
-    // TODO: Faris 
+    // TODO: Faris
     // implémente ici
     // son code
 
     return 0;
 }
 
-
-
 // ==============================
 // === Subtraction (Jacky) =====
 // ==============================
 
-long double subtraction(long double num1, long double num2) {
+long double subtraction(long double num1, long double num2)
+{
 
     return num1 - num2;
-
 }

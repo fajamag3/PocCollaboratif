@@ -2,7 +2,7 @@
 #define FUNCTIONS_H
 
 // --- Addition (Amadou) ---
-int addition(int a, int b);
+long double addition(long double a, long double b);
 
 // --- Multiplication (Faris) ---
 int multiplication(int a, int b);
