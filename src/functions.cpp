@@ -1,4 +1,4 @@
-#include "functions.h"
+﻿#include "functions.h"
 
 
 namespace OPERATIONS
@@ -14,14 +14,9 @@ namespace OPERATIONS
 	// ==============================
 	// === Multiplication (Faris) ===
 	// ==============================
-	int multiplication(int a, int b)
+	long double multiplication(int a, int b)
 	{
-
-    		// TODO: Faris
-    		// implémente ici
-    		// son code
-
-    		return a*b;
+    		return a * b;
 	}
 
 	// ==============================
