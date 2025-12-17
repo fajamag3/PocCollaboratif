@@ -32,15 +32,15 @@ int main()
         switch (choix)
         {
             case 1:
-                std::cout << "Résultat : " << addition(a, b) << "\n";
+                std::cout << "Résultat : " << OPERATIONS::addition(a, b) << "\n";
                 break;
 
             case 2:
-                std::cout << "Résultat : " << multiplication(a, b) << "\n";
+                std::cout << "Résultat : " << OPERATIONS::multiplication(a, b) << "\n";
                 break;
 
             case 3:
-                std::cout << "Résultat : " << subtraction(a, b) << "\n";
+                std::cout << "Résultat : " << OPERATIONS::subtraction(a, b) << "\n";
                 break;
 
 		case 5:

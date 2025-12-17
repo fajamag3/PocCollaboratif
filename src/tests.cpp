@@ -2,6 +2,7 @@
 #include "functions.h"
 #include "tests.h"
 
+using namespace OPERATIONS;
 // ==============================
 // === Test Addition ============
 // ==============================
