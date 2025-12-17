@@ -7,7 +7,7 @@ namespace OPERATIONS
 long double addition(long double a, long double b);
 
 // --- Multiplication (Faris) ---
-int multiplication(int a, int b);
+long double multiplication(int a, int b);
 
 // --- Soustraction (Jacky) ---
 long double subtraction(long double num1, long double num2);
