@@ -1,4 +1,4 @@
-﻿#include "functions.h"
+#include "functions.h"
 
 
 namespace OPERATIONS
@@ -21,7 +21,7 @@ namespace OPERATIONS
     		// implémente ici
     		// son code
 
-    		return 0;
+    		return a*b;
 	}
 
 	// ==============================

@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include "functions.h"
 #include "tests.h"
 

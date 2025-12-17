@@ -1,4 +1,4 @@
-﻿#ifndef TESTS_H
+#ifndef TESTS_H
 #define TESTS_H
 
 bool testAddition();
